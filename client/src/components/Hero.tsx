@@ -21,7 +21,7 @@ const Hero = () => {
   };
   return (
     <>
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-150 gap-8 pt-15 " >
+    <div id="hero" className="flex flex-col md:flex-row items-center justify-center min-h-150 gap-8 pt-15 " >
         {/*My Image*/}
         <div className="flex-shrink-0">
             <img
