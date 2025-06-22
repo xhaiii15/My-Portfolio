@@ -11,7 +11,7 @@ const Hero = () => {
         text: 'Sure ka na pupunta ka sa Facebook ko?',
         icon: 'question',
         showCloseButton: true,
-        confirmButtonText: 'Yes, proceed',
+        confirmButtonText: 'Tanginamo, Oo nga',
     }).then((result) => {
       if (result.isConfirmed) {
         // Open in a new tab

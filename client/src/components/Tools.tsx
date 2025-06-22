@@ -5,16 +5,15 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 
-
 const Tools = () => {
   return (
     <>
     <div  id="tools" className="min-h-screen flex flex-col items-center pt-12 transition-all">
-        <h1 className="text-[#1DCD9F] font-bold text-4xl md:text-6xl lg:text-7xl leading-tight font-[Poppins] mb-8">
+        <h1 className="text-[#1DCD9F] hover:text-[#FF0B55] font-bold text-4xl md:text-6xl lg:text-7xl leading-tight font-[Poppins] mb-8 cursor-pointer">
             Tools
         </h1>
         <div className="flex flex-wrap justify-center gap-6 p-8 rounded-lg shadow-lg mt-10">
-             <div className="bg-[#222831] text-4xl flex justify-center gap-5 w-100 rounded-lg p-4 shadow-lg scale-200 ">
+             <div className="bg-[#222831] text-4xl flex justify-center gap-5 w-100 rounded-lg p-4 shadow-lg md:scale-200">
                 {/*one*/}
                 <div className="relative group cursor-pointer">
                     <FaHtml5 className="scale-100 text-[#e34c26] hover:scale-150 duration-200 ease-in-out" />
@@ -52,7 +51,7 @@ const Tools = () => {
                 </div>
                 {/*six*/}
                 <div className="relative group cursor-pointer">
-                  <SiTypescript className="scale-100 text-[#06b6d4] hover:scale-150 duration-200 ease-in-outr" />
+                  <SiTypescript className="scale-100 text-[#06b6d4] hover:scale-150 duration-200 ease-in-out" />
                     <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         TYPESCRIPT
                     </div>
@@ -60,7 +59,7 @@ const Tools = () => {
              </div>
         </div>
         <div className="max-w-3xl text-center mt-30">
-            <p className="text-white text-lg md:text-xl font-[Poppins] text-justify sm:px-10 md:pl-4 lg:px-0 leading-relaxed max-w-[100vw]">
+            <p className="text-white mt-2 text-lg md:text-xl font-[Poppins] text-justify sm:px-10 md:pl-4 lg:px-0 leading-relaxed max-w-[90vw]">
                 These are the tools I use to create <span className="text-[#1DCD9F]">responsive</span> and <span className="text-[#1dcd9f]">user-friendly web applications</span>. 
                 I am always eager to <span className="text-[#FF0B55]">learn</span> new technologies and <span className="text-[#FF0B55]">improve my skills</span>.
             </p>
